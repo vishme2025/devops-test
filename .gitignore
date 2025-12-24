@@ -1,0 +1,19 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/.pytest_cache/
+
+# Node
+frontend/node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
