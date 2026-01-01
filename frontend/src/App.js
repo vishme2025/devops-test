@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("Loading...");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/")
+    fetch("http://40.192.100.240:8000/")
       .then((res) => res.json())
       .then((data) => setMessage(data.message))
       .catch(() => setMessage("Backend not reachable"));
