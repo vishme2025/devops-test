@@ -4,6 +4,10 @@
 backend/venv/
 backend/__pycache__/
 backend/.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Node
 frontend/node_modules/
